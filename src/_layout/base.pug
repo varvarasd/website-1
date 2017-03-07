@@ -8,12 +8,8 @@ html(lang="en")
       meta(content=description, name="description")
     if config.entry.css.inline
       link(rel="stylesheet", href=`${inlinePath}`, inline)
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
   body
-    .container
-      .content
-        include ../_component/reclama/reclama
-        block content
-      include ../_component/header/header
-      include ../_component/footer/footer
+    block content
 if config.entry.css.external
   link(rel="stylesheet", href="style.css")

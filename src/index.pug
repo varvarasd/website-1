@@ -1,9 +1,21 @@
 extends _layout/base
 block settings
-  - title = 'Welcome to Pug Starter';
-  - description = 'Simple pug (jade) starter aimed to quickly deliver HTML & CSS projects';
+  - title = 'Website-1 Challenge';
+  - description = 'Website-1 Challenge main description';
 
 block content
-  h1 Welcome to pug starter!
-  div
-    button.btn.btn-blue.btn-block Salut
+  .container
+    .content
+
+
+
+
+      
+      include ./_component/header/header
+      include ./_component/menu/menu
+      include ./_component/skills/skills
+      include ./_component/about/about
+      include ./_component/portfolio/portfolio
+      include ./_component/awards/awards
+      include ./_component/employment/employment
+      include ./_component/footer/footer
