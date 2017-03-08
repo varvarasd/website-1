@@ -4,7 +4,9 @@ html, body {
   color: $zambezi;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
 }
-
+* {
+  box-sizing: border-box;
+}
 .container {
   min-height: 100%;
   display: flex;

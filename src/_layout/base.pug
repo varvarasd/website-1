@@ -6,9 +6,10 @@ html(lang="en")
       title #{title}
     if description
       meta(content=description, name="description")
+      meta(name='viewport', content='width=device-width, initial-scale=1.0')
     if config.entry.css.inline
       link(rel="stylesheet", href=`${inlinePath}`, inline)
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
   body
     block content
 if config.entry.css.external
