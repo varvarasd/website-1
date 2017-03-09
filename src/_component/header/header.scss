@@ -1,15 +1,13 @@
 @import "../menu/menu";
 
-h1, h2 {
+.top-text {
   text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
+
 .top-background {
   background-image: url(/asset/image/background-top1.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
   background-size: cover;
-}
-header {
-  min-height: 300px;
 }
