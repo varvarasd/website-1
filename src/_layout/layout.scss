@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   color: $zambezi;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+  width: 100%;
 }
 * {
   box-sizing: border-box;
@@ -12,7 +13,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 60rem;
+  width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
 
@@ -26,5 +27,6 @@ html, body {
     border: 1px solid $alto;
     margin: 1rem 0;
     padding: 0 1rem;
+    width: 100%;
   }
 }
