@@ -5,5 +5,11 @@ h1, h2 {
 }
 .top-background {
   background-image: url(/asset/image/background-top1.jpg);
-  min-height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+header {
+  min-height: 300px;
 }
