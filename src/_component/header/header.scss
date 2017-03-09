@@ -6,8 +6,13 @@
   padding-bottom: 20%;
 }
 
-.top-background {
+.top-text {
   background-image: url(/asset/image/background-top1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: bottom center;
+}
+.top-background {
+  height: 100%;
+  width: 100%;
 }
