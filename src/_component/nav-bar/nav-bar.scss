@@ -1,0 +1,25 @@
+.nav-bar-container {
+  padding-top: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.nav-bar li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: $scarpa-flow;
+}
+.nav-bar a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.nav-bar-container ul li a {
+  text-decoration: none;
+}
+.nav-bar ul {
+  padding-left: 20px;
+}
