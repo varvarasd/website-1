@@ -1,4 +1,4 @@
-.about-me
+.container-fluid#about-me
   .about-me-head
     p#about-title ABOUT ME
     p#about-line __________
@@ -8,22 +8,34 @@
     .about-me-text
       p#p1 Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
       p h vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam neh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam neh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam neh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam neh vulputate cursus a sit amet mauris. 
-    .row1#about-me-details
-      .col-xs-3#about-col1
-        img.img-responsive.portrait(src='/asset/image/eu.jpg' alt='Portrait picture')
-      .col-xs-1#about-col2
-        .title-info
-          p Birthdate
-          p Phone
-          p E-mail
-          p Address
-      .col-xs-3
-        .title-details
-          p 27.10.1983
-          p 07761811456
-          p varvara_sd@outlook.com
-          p Address: 69 Corporation street, E15 3HB, London, UK
-      .col-xs-5#about-col3
-          .hobbies-title
-            p
-              strong HOBBIES & INTERESTS
+  .container-fluid#about-me-details
+  .row
+    .col-xs-3#about-image
+      img.img-responsive.portrait(src='/asset/image/eu.jpg' alt='Portrait picture')
+    .col-xs-4#table-details
+      .about-info
+        .about-title
+          p #[strong Birthdate]
+          p #[strong Phone]
+          p #[strong E-mail]
+          p #[strong Address]
+        .about-details
+          p : 27.10.1983
+          p : 07761811456
+          p : varvara_sd@outlook.com
+          p : Address: 69 Corporation street, E15 3HB, London, UK
+      .about-signature
+        p#signature Daniel Varvara
+        p#download-resume
+          i.fa.fa-download
+          |
+          span#download DOWNLOAD RESUME
+    .col-xs-5#about-hobbies
+        .hobbies-title
+          p
+            strong HOBBIES & INTERESTS
+        .hobbies-details
+            ul
+              li
+                i.fa-gamepad
+                  span Games

@@ -1,8 +1,10 @@
 .nav-bar-container {
-  padding-top: 20px;
+  padding-top: 50px;
   border-bottom: 1px solid gray;
 }
-
+.nav-bar a {
+  text-decoration: none;
+}
 .nav-bar li {
   display: inline-block;
   text-align: center;
@@ -15,11 +17,4 @@
 .nav-bar a:hover {
   color: red;
   text-decoration: none;
-}
-
-.nav-bar-container ul li a {
-  text-decoration: none;
-}
-.nav-bar ul {
-  padding-left: 20px;
 }
