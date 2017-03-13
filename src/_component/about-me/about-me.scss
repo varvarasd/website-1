@@ -24,26 +24,28 @@
   font-weight: bold;
 }
 // end About me text content
-// start About me details section
-img.img-responsive.portrait {
-  width: 100%;
-  height: 100%;
-}
+// start About me details row
 .row {
   padding-top: 1.25em;
   margin-top: 1.25em;
+// end row
+// start 1st col
 }
+img.img-responsive.portrait {
+  width: 100%;
+  height: 100%;
+  float: left;
+  padding: 0%;
+  margin: 0%;
+}
+// end 1st col
+// start 2nd col
 
 .col-xs-4#table-details {
   font-size: 1.0625em;
   text-align: left;
 }
-.hobbies-title {
-  font-size: 1.25em;
-}
-.hobbies-details {
-  text-align: left;
-}
+
 .about-title {
   position: relative;
   float: left;
@@ -73,4 +75,24 @@ p#download-resume {
   text-align: center;
   padding: 1.0625em;
   width: 75%;
+}
+//end 2nd col
+//start 3rd col
+.hobbies-title {
+  font-size: 1.25em;
+}
+.hobbies-details li {
+  background-color: $pearl-bush;
+  display: inline;
+  width:35%;
+  height: 35%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  float: left;
+  position: relative;
+  margin: 1%;
+  text-align: center;
+  list-style-type: none;
+  font-size: 1.5em;
+  overflow: auto;
 }
