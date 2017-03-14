@@ -1,9 +1,13 @@
 .resume {
-
+  margin-top: 10%;
 }
 
-.container {
-
+#my-resume {
+  margin: 0 auto;
+  padding: 0%;
+  text-align: center;
+  width: 100%;
+  background-color: $green-white;
 }
 
 .resume-title {
@@ -16,4 +20,48 @@
 }
 #resume-line {
   color: red;
+}
+.resume-content {
+  font-family: 'Amatic SC', cursive;
+  background-color: $green-white;
+}
+.heading-xp {
+  padding-top: 7%;
+}
+h1#xp {
+  display: inline-block;
+  background-color: $peri-blue;
+  text-align: center;
+  float: center;
+  position: relative;
+  padding: 1%;
+  margin: auto;
+  width: 15% !important;
+  border-radius: 7px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.resume-experience {
+  background-color: $green-white;
+}
+.timeline-container li {
+  background-color: $green-white;
+  position: relative;
+}
+.timeline-left {
+  float: left;
+  width: 50%;
+  height: 20em;
+  direction: rtl;
+  text-align: right;
+  background-color: inherit;
+  border-right: 0.1em solid $peri-blue;
+}
+
+.timeline-right {
+  float: right;
+  width: 50%;
+  height: 20em;
+  text-align: left;
+  border-right: 0.1em solid $peri-blue;
 }
