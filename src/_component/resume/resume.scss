@@ -71,7 +71,7 @@ ul.timeline-list li:hover {
   border-left: 4px solid $peri-blue;
   border-bottom: 1px solid $peri-blue;
   text-align: left;
-  border-radius: 0px 10px 10px 10px;
+  border-radius: 0px 10px 0px 10px;
   background: $green-white;
 
 }
@@ -82,7 +82,7 @@ ul.timeline-list li:hover {
   border-right: 4px solid $peri-blue;
   border-bottom: 1px solid $peri-blue;
   text-align: right;
-  border-radius: 10px 0px 10px 10px;
+  border-radius: 10px 0px 10px 0px;
   direction: rtl;
   background: $green-white;
 }
