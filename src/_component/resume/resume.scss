@@ -24,7 +24,7 @@
   color: red;
 }
 
-.resume-experience-title h1#xp {
+.resume#my-resume h1 {
   display: inline-block;
   background-color: $peri-blue;
   text-align: center;
@@ -37,7 +37,7 @@
   word-wrap: break-word;
 }
 .resume-experience-title {
-  margin-top: 10%;
+  margin-top: 270px;
 }
 
 
@@ -58,6 +58,7 @@ ul.timeline-list li {
   font-size: 1em;
   letter-spacing: normal;
   font-family: 'Monda', sans-serif;
+  margin-top: 50px;
 }
 
 ul.timeline-list li:hover {
@@ -85,4 +86,9 @@ ul.timeline-list li:hover {
   border-radius: 10px 0px 10px 0px;
   direction: rtl;
   background: $green-white;
+}
+.resume-education-title {
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
