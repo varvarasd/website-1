@@ -23,24 +23,21 @@
 #resume-line {
   color: red;
 }
-.resume-content {
-  font-family: 'Amatic SC', cursive;
-  background-color: $green-white;
-}
 
-
-h1#xp {
+.resume-experience-title h1#xp {
   display: inline-block;
   background-color: $peri-blue;
   text-align: center;
-  float: center;
   position: relative;
   padding: 1%;
   margin: auto;
-  width: 15% !important;
+  width: 25%;
   border-radius: 7px;
   font-weight: bold;
-  letter-spacing: 3px;
+  word-wrap: break-word;
+}
+.resume-experience-title {
+  margin-top: 10%;
 }
 
 
@@ -49,7 +46,7 @@ h1#xp {
   background-repeat: repeat-y;
   background-position: center;
   background-attachment: fixed;
-  background-size: 20px !important;
+  background-size: 20px;
 }
 .timeline {
   padding-top: 100px;
@@ -58,8 +55,11 @@ ul.timeline-list li {
   list-style-type: none;
   list-style-position: inside;
   padding: 20px;
+  font-size: 1em;
+  letter-spacing: normal;
+  font-family: 'Monda', sans-serif;
 }
-// ---------------------------------------------
+
 ul.timeline-list li:hover {
   background-color: white;
 }
@@ -72,7 +72,7 @@ ul.timeline-list li:hover {
   border-bottom: 1px solid $peri-blue;
   text-align: left;
   border-radius: 0px 10px 0px 10px;
-  background: $green-white;
+  z-index: -1;
 
 }
 .timeline-list li:nth-child(even) {
